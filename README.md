@@ -12,7 +12,7 @@ One of the most confusing concepts that developers struggle to understand is wha
 
 ### Real-Life Analogy
 
-Have you ever been to a fancy hotel and see that there are cones on some parking spots and signs that say reserved for valet parking? Are these cones and signs the real cars? No, but they are there representing the next car that will be parked there. These cones are placeholders for the next car that will soon to be parked there. Parameters and Arguments work the same way, where parameters are just placeholders for the inputs. The inputs are the real cars in this real scenario, but in Java the input will be the real string that will be inputted when the method has been invoked. 
+Have you ever observed cones and signs indicating reserved valet parking spots at luxurious hotels? Although these cones and signs do not represent actual cars, they serve as placeholders for the upcoming parked vehicles. Similarly, in programming, parameters serve as placeholders for input values, which are like the real cars in this analogy. In Java, the input values are the actual strings that are passed as arguments when a method is called.
 
 ### Let's Backtrace
 
@@ -37,7 +37,7 @@ This would give us an output of "Hello, my name is Josh!" But, what if we didn't
 
 ### Parameters and Arguments
 
-As we stated within the real-life analogy, parameters are just placeholders where it will represent any coming data when the method is being used. On the other hand, arguments will be the actual name, or actual data when the method is used. For example: If I create a new person instance, I would like to instantiate it with an actual name. It would look something like this:
+As mentioned in the previous analogy, parameters serve as mere placeholders that represent any upcoming data when a method is utilized. In contrast, arguments refer to the actual values or data that are passed when a method is called. For instance, when creating a new person instance, one would want to instantiate it with an actual name, which would look like the following:
 
 ```
 new_object = new Person();
@@ -63,4 +63,5 @@ This lab is a test-driven lab. You will read various methods within the class an
 ### Resources:
 
 [W3schools Java Method Parameters](https://www.w3schools.com/java/java_methods_param.asp#:~:text=Parameters%20act%20as%20variables%20inside,separate%20them%20with%20a%20comma.)
+
 [GeeksForGeeks Java Parameters](https://www.geeksforgeeks.org/argument-vs-parameter-in-java/)
